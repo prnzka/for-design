@@ -1,7 +1,7 @@
 # For design
 
 Dialogue audio for a 41-second vertical animated short, "The Side Door".
-Two characters, 16 lines. Everything here is final as rendered and ready to cut
+Two characters, 16 lines, delivered as 17 files. Everything here is final as rendered and ready to cut
 against picture.
 
 **`dialogue-stem-41s.wav`** is the whole thing already assembled at the cue
@@ -12,7 +12,7 @@ there for retiming single lines.
 ## Cues
 
 Start times are from the top of the film. MAX is the hard ceiling for each line:
-13 of the 16 sit flush against the next cue, so a line running over its MAX
+13 of them sit flush against the next cue, so a line running over its MAX
 collides with the following one.
 
 | Cue | File | Who | Line | Start | Length | Max |
@@ -24,7 +24,8 @@ collides with the following one.
 | 5 | kb03 | K-Bot | "All pictures. Not one word." | 0:10.0 | 1.65s | 2.5s |
 | 6 | kb04 | K-Bot | "Nothing on Hale dot com says what you sell." | 0:12.5 | 2.37s | 4.0s |
 | 7 | kb05 | K-Bot | "And the side door's latched." | 0:16.5 | 1.58s | 2.4s |
-| 8 | ow03 | Owner | "I did that. It blocks bots." | 0:19.0 | 2.19s | 3.0s |
+| 8 | ow03a | Owner | "I did that." | 0:19.0 | 0.95s | 1.4s |
+| 8 | ow03b | Owner | "It blocks bots." | 0:20.4 | 1.35s | 1.6s |
 | 9 | kb06 | K-Bot | "It blocks Hale out of the answers." | 0:22.0 | 1.87s | 3.5s |
 | 10 | kb07 | K-Bot | "Real words." | 0:25.5 | 0.98s | 1.4s |
 | 11 | kb08 | K-Bot | "Say what you sell." | 0:27.0 | 0.97s | 1.0s |
@@ -33,6 +34,13 @@ collides with the following one.
 | 14 | kb11 | K-Bot | "We're Kodigoes. It's all written down." | 0:33.5 | 2.16s | 3.0s |
 | 15 | kb12 | K-Bot | "Comment site." | 0:36.5 | 0.93s | 1.0s |
 | 16 | kb13 | K-Bot | "We'll apply this to your website." | 0:37.5 | 1.66s | 3.4s |
+
+Cue 8 is two files. The owner's "I did that. It blocks bots." is delivered as
+two separate sentences, each rendered on its own, so the beat between them is
+yours to set. As delivered there is a 0.57s gap: "I did that." lands its last
+word at 0:19.85 and "It blocks bots." starts at 0:20.4. The second half has to
+finish before the cut at 0:22.0, which leaves 0.25s of slack to push it later,
+or move it earlier for a tighter, more defensive answer.
 
 Spoken dialogue totals about 23s inside a 41s film, so roughly 18s is silence.
 That space is intentional: the piece plays dry and understated.
@@ -54,7 +62,7 @@ by pacing and by the edit.
 ## Format
 
 Every file: WAV, 48000 Hz, 16-bit, mono. Loudness about -16 LUFS integrated
-with true peaks below -1 dBTP, matched across all 16 so no line jumps out. Dry:
+with true peaks below -1 dBTP, matched across all 17 so no line jumps out. Dry:
 no music, no effects beyond K-Bot's speaker treatment, and no reverb, so reverb
 and room can be added to taste. Speech starts within 0.05s of each file's start
 with roughly a 0.1s tail.
